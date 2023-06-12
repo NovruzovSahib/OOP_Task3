@@ -22,5 +22,12 @@ namespace OOP_Task3
         public short ProductYear { get; init; }
         public bool IsAutomatic { get; init; }
 
+
+
+        public void CarInfo2(string CarType, string Model, string Engine, string Color, short ProductYear, bool IsAutomatic)
+        {
+            Console.WriteLine($"car type is {CarType}\ncar model is {Model}\ncar engine is {Engine}\ncar color is {Color}\ncar productyear is {ProductYear}\ncar isautomatic is {IsAutomatic}");
+        }
+
     }
 }

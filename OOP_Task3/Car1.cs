@@ -33,7 +33,7 @@ namespace OOP_Task3
             IsAutomatic = isAutomatic;
         }
 
-        public void CarInfo()
+        public void CarInfo1()
         {
             Console.WriteLine($"car cartype is {CarType = "Hachbak"}\ncar model is {Model = "Toyota"}\ncar engine is {Engine = 1.6}\ncar color is {Color ="Gray"}\ncar productyear is {ProductYear=2008}\ncar isautomatic is {IsAutomatic = true}");
         }
